@@ -14,3 +14,19 @@ C:\Users\Antek Kania\.vscode\studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.dll
 C:\Users\Antek Kania\.vscode\studia\pp\pierwsze\obj\Debug\net5.0\ref\pierwsze.dll
 C:\Users\Antek Kania\.vscode\studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.pdb
 C:\Users\Antek Kania\.vscode\studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.genruntimeconfig.cache
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\bin\Debug\net5.0\pierwsze.exe
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\bin\Debug\net5.0\pierwsze.deps.json
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\bin\Debug\net5.0\pierwsze.runtimeconfig.json
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\bin\Debug\net5.0\pierwsze.runtimeconfig.dev.json
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\bin\Debug\net5.0\pierwsze.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\bin\Debug\net5.0\ref\pierwsze.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\bin\Debug\net5.0\pierwsze.pdb
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.csproj.AssemblyReference.cache
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.AssemblyInfoInputs.cache
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.AssemblyInfo.cs
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.csproj.CoreCompileInputs.cache
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\obj\Debug\net5.0\ref\pierwsze.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.pdb
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\obj\Debug\net5.0\pierwsze.genruntimeconfig.cache
