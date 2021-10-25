@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cb9gOGFLdpMc+CSCv6dA8M19f8HDYTt/1FbgwgUDBae20Yw6TZ836L1nQYdVIxtNHvEiFT2B5Ya1seFNwC3y1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\lakiernia\\ProjektPP-main\\DB_test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Antek\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.115\\stub.system.data.sqlite.core.netstandard.1.0.115.nupkg.sha512",
+    "C:\\Users\\Antek\\.nuget\\packages\\system.data.sqlite.core\\1.0.115\\system.data.sqlite.core.1.0.115.nupkg.sha512"
+  ],
+  "logs": []
+}
