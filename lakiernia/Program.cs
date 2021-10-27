@@ -8,31 +8,17 @@ namespace projekt_func_test
         
         static void Main(string[] args)
         {
-            
-
-
-
             string cs = "Data Source=./sqliteDB.db"; //connection string  (wskazuje sciezke do bazy danych)
             using var con = new SQLiteConnection(cs);
             con.Open();
 
             string stm = "SELECT * FROM Brand";
-            string audi = "SELECT * FROM Audi_model";
-            string mercedes = "SELECT * FROM Mercedes_model";
+
             string client = "SELECT * FROM Client";
             string[] clients = new string[100];
             int exit = 0;
             bool znizka = false;
             int i = 0;
-            double audi_1_multiplier = 0.95;    // szacunkowe mnozniki dla kazdego samochodu,poniewaz pola powierzchni kazdej czesci sa takie same dla kazdego samochodu(patrz baze danych)
-            double audi_2_multiplier = 1.2;
-            double audi_3_multiplier = 1;
-            double audi_4_multiplier = 1.15;
-            double audi_5_multiplier = 0.9;
-
-
-
-
 
             while (true)
             {
@@ -60,8 +46,8 @@ namespace projekt_func_test
 
 
 
-                    using var cmd3 = new SQLiteCommand(client, con);               //odwolanie sie okreslonej tablicy (w tym przypadku zmiennej "client" ktora jest zdefiniowana na poczatku)
-                    using SQLiteDataReader reader3 = cmd3.ExecuteReader();         //funcja ExecuteReader() uruchamia czytanie zawartosci wskazanej tablicy
+                    using var cmd1 = new SQLiteCommand(client, con);               //odwolanie sie okreslonej tablicy (w tym przypadku zmiennej "client" ktora jest zdefiniowana na poczatku)
+                    using SQLiteDataReader reader3 = cmd1.ExecuteReader();         //funcja ExecuteReader() uruchamia czytanie zawartosci wskazanej tablicy
 
 
 
@@ -123,54 +109,18 @@ namespace projekt_func_test
 
                     }
                     Console.Write(": ");
+                    
                     int brand;
                     int.TryParse(Console.ReadLine(),out brand);
-
-
-                    if (brand == 1)
+                    if (brand != 0)
                     {
-                        
-                        using var cmd1 = new SQLiteCommand(audi, con);
-                        using SQLiteDataReader rdr1 = cmd1.ExecuteReader();
-
-                        Console.WriteLine("Wybierz model");
-                        while (rdr1.Read())
-                        {
-                            Console.WriteLine($"{rdr1.GetInt32(0)} {rdr1.GetString(1)}");
-                        }
-                        Console.Write(": ");
-                        int model;
-                        int.TryParse(Console.ReadLine(),out model);
-
-                        if (true)
-                        {
-                            if (model == 1)
-                            {
-                                Model(audi_1_multiplier);     //w tym miejscu odwoluje sie do funkcji ktora jest na koncy
-                            }
-                            else if (model == 2)
-                            {
-                                Model(audi_2_multiplier);
-                            }
-                            else if (model == 3)
-                            {
-                                Model(audi_3_multiplier);
-                            }
-                            else if (model == 4)
-                            {
-                                Model(audi_4_multiplier);
-                            }
-                            else if (model == 5)
-                            {
-                                Model(audi_5_multiplier);
-                            }
-                            else Console.WriteLine("Wystapil blad");
-                        }
-                        
-
+                        brandChoice(brand);
                     }
-
-                    
+                    else
+                    {
+                        Console.WriteLine("Wprowadziles niepoprawne dane,sprobuj ponownie");
+                        Console.ReadKey();
+                    }
                 }
 
 
@@ -238,16 +188,16 @@ namespace projekt_func_test
                     if (close != 0)
                     {
                         int delete = close;
-                        using var cmd5 = new SQLiteCommand(con);
+                        using var cmd4 = new SQLiteCommand(con);
                         Console.WriteLine("Napewno chcesz usunac klienta? [1] Tak  [2] Nie");
                         Console.Write(": ");
                         int ans;
                         int.TryParse(Console.ReadLine(),out ans);
                         if (ans == 1)
                         {
-                            cmd5.CommandText = "DELETE FROM Client WHERE Id=" + delete + "";  //usuwanie klienta DELETE FROM Client(czyli wskazuje teblice) WHERE Id=(usuwam rekord o kliencie ktory ma podany Id)
-                            cmd5.Prepare();
-                            cmd5.ExecuteNonQuery();
+                            cmd4.CommandText = "DELETE FROM Client WHERE Id=" + delete + "";  //usuwanie klienta DELETE FROM Client(czyli wskazuje teblice) WHERE Id=(usuwam rekord o kliencie ktory ma podany Id)
+                            cmd4.Prepare();
+                            cmd4.ExecuteNonQuery();
                             Console.WriteLine("Klient zostal usuniety");
                             Console.ReadLine();
                         }
@@ -272,6 +222,80 @@ namespace projekt_func_test
 
             }
         }
+
+        public static void brandChoice(int brand)
+        {
+            bool control=true;
+            string cs = "Data Source=./sqliteDB.db";
+            using var con = new SQLiteConnection(cs);
+            con.Open();
+
+            String brandTable ="";
+            switch (brand)
+            {
+                case 1:
+                brandTable="Audi_model";
+                break;
+
+                case 2:
+                brandTable="BMW_model";
+                break;
+
+                case 3:
+                brandTable="Mercedes_model";
+                break;
+
+                case 4:
+                brandTable="Toyota_model";
+                break;
+
+                default:
+                Console.WriteLine("Podano nieprawidłowe dane");
+                control=false;
+                break;
+            }
+            if(control==true)
+            { 
+                using var cmd1 = new SQLiteCommand("SELECT * FROM " + brandTable, con);
+                using SQLiteDataReader rdr1 = cmd1.ExecuteReader();
+
+                Console.WriteLine("Wybierz model");
+                while (rdr1.Read())
+                {
+                    Console.WriteLine($"{rdr1.GetInt32(0)} {rdr1.GetString(1)}");
+                }
+                Console.Write(": ");
+
+                int model=0;
+                double multiplier=0;
+                while(true)
+                {
+                    int.TryParse(Console.ReadLine(),out model);
+                    if(model==1 || model==2 || model==3 || model==4 || model==5)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Nie ma takiego modelu, podaj nr modelu jeszcze raz");
+                    }
+                }
+
+                using var cmd2 = new SQLiteCommand("SELECT Multiplier FROM " + brandTable + " WHERE Id= " + model, con);
+                using SQLiteDataReader read_multiplier = cmd2.ExecuteReader();
+                while (read_multiplier.Read())
+                {
+                    multiplier = read_multiplier.GetDouble(0);
+                }
+
+                Model(multiplier);
+            }
+            else
+            {
+                brandChoice(brand);
+            }
+        }
+
         public static void Model(double multiplier)             //tu juz chyba wszystko jest jasne
         {   
             string cs = "Data Source=./sqliteDB.db";
