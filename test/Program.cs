@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace test
 {
@@ -6,16 +7,25 @@ namespace test
     {
         static void Main(string[] args)
         {
+            ConsoleKeyInfo keyPressed = ReadKey();
+
             while(true)
             {
-                double cos;
-                Console.WriteLine("Wpisz liczbe ;)");
-                Console.Write(": ");
-                double.TryParse(Console.ReadLine(), out cos);
-                Console.WriteLine(cos);
-                
+                //int answer;
+                //int.TryParse(Console.ReadLine(), out answer);
+                if(keyPressed.Key == ConsoleKey.D1)
+                {
+                    Console.Clear();
+                    Console.Write("Wcisnales 1");
+                }
+                else if(keyPressed.Key != ConsoleKey.D1)
+                {
+                    Console.Clear();
+                    Console.Write("Wcisnales zly przycisk, probuj dalej \n");
+                }
+            }   
 
-            }
+            
         }
     }
 }
