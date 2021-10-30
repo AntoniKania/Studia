@@ -277,7 +277,7 @@ namespace projekt_func_test
                     }
                     else
                     {
-                        Console.WriteLine("Nie ma takiego modelu, podaj nr modelu jeszcze raz");
+                        Console.Write("Nie ma takiego modelu, podaj nr modelu jeszcze raz: ");
                     }
                 }
 
@@ -292,7 +292,10 @@ namespace projekt_func_test
             }
             else
             {
-                brandChoice(brand);
+                int brand1;
+                Console.WriteLine("Wprowadź dane ponownie:");
+                int.TryParse(Console.ReadLine(),out brand1);
+                brandChoice(brand1);
             }
         }
 

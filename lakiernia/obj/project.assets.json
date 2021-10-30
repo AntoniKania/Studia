@@ -82,11 +82,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\lakiernia\\lakiernia2\\DB_test.csproj",
+      "projectUniqueName": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\lakiernia\\DB_test.csproj",
       "projectName": "DB_test",
-      "projectPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\lakiernia\\lakiernia2\\DB_test.csproj",
+      "projectPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\lakiernia\\DB_test.csproj",
       "packagesPath": "C:\\Users\\Antek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\lakiernia\\lakiernia2\\obj\\",
+      "outputPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\lakiernia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Antek\\AppData\\Roaming\\NuGet\\NuGet.Config",
