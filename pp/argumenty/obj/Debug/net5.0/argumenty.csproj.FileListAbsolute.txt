@@ -1,0 +1,16 @@
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\bin\Debug\net5.0\argumenty.exe
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\bin\Debug\net5.0\argumenty.deps.json
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\bin\Debug\net5.0\argumenty.runtimeconfig.json
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\bin\Debug\net5.0\argumenty.runtimeconfig.dev.json
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\bin\Debug\net5.0\argumenty.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\bin\Debug\net5.0\ref\argumenty.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\bin\Debug\net5.0\argumenty.pdb
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\obj\Debug\net5.0\argumenty.csproj.AssemblyReference.cache
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\obj\Debug\net5.0\argumenty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\obj\Debug\net5.0\argumenty.AssemblyInfoInputs.cache
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\obj\Debug\net5.0\argumenty.AssemblyInfo.cs
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\obj\Debug\net5.0\argumenty.csproj.CoreCompileInputs.cache
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\obj\Debug\net5.0\argumenty.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\obj\Debug\net5.0\ref\argumenty.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\obj\Debug\net5.0\argumenty.pdb
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\argumenty\obj\Debug\net5.0\argumenty.genruntimeconfig.cache

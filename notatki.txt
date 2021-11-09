@@ -6,3 +6,38 @@ def silnia (n)
 		return 1
 	else
 		return n*silnia(n-1)
+
+
+koniunkcja bitowa 
+
+
+euklidesa
+nwd
+
+notacja duzego O - zlozonosc obliczeniowa
+
+algorytmy sortowania:
+
+bubblesort /zlozonosc n kwadrat
+-dwukierunkowe i z malejacym zbiorem
+-sortowanie gnoma
+sortowanie sekwencyjne /zlozonosc n kwadrat (zazwyczaj bardziej wydajny od bubble sort, chyba ze tablica jest juz czesciowo posortowana)
+-sortowanie przez wstawianie
+-sortowanie przez wybieranie /niestabilny
+sortowanie medianowe /nieuzywany
+mergesort (przez scalanie)
+quicksort /wykonywany w miejscu
+sortowanie przez zliczanie (counting sort)/stabilny
+-bucket sort (kubełkowe)
+bogosort (pseudo sortowanie) /zlozonosc obliczeniowa O(n!)
+-ustawia losowo i sprawdza czy jest posortowana
+timsort
+mergesort
+insertion sort
+
+
+quicksort
+
+stabilnosc
+
+praca / staz IT 

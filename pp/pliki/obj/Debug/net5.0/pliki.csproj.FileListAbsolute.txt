@@ -1,0 +1,16 @@
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\bin\Debug\net5.0\pliki.exe
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\bin\Debug\net5.0\pliki.deps.json
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\bin\Debug\net5.0\pliki.runtimeconfig.json
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\bin\Debug\net5.0\pliki.runtimeconfig.dev.json
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\bin\Debug\net5.0\pliki.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\bin\Debug\net5.0\ref\pliki.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\bin\Debug\net5.0\pliki.pdb
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\obj\Debug\net5.0\pliki.csproj.AssemblyReference.cache
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\obj\Debug\net5.0\pliki.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\obj\Debug\net5.0\pliki.AssemblyInfoInputs.cache
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\obj\Debug\net5.0\pliki.AssemblyInfo.cs
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\obj\Debug\net5.0\pliki.csproj.CoreCompileInputs.cache
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\obj\Debug\net5.0\pliki.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\obj\Debug\net5.0\ref\pliki.dll
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\obj\Debug\net5.0\pliki.pdb
+C:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pliki\obj\Debug\net5.0\pliki.genruntimeconfig.cache
