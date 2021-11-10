@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ded3f204-4d23-470f-b675-a734f0fd859c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../notatki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../notatki.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/argumenty.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/bin/Debug/net5.0/argumenty.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/bin/Debug/net5.0/argumenty.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/bin/Debug/net5.0/argumenty.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/bin/Debug/net5.0/argumenty.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/bin/Debug/net5.0/argumenty.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/bin/Debug/net5.0/argumenty.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/bin/Debug/net5.0/ref/argumenty.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/argumenty.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/argumenty.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/argumenty.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/argumenty.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/argumenty.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/argumenty.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/argumenty.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/argumenty.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/argumenty.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/argumenty.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/Debug/net5.0/ref/argumenty.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/argumenty.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/argumenty.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/argumenty.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/argumenty/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/bin/Debug/net5.0/pierwsze.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/bin/Debug/net5.0/pierwsze.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/bin/Debug/net5.0/pierwsze.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/bin/Debug/net5.0/pierwsze.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/bin/Debug/net5.0/pierwsze.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/bin/Debug/net5.0/pierwsze.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/bin/Debug/net5.0/ref/pierwsze.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/pierwsze.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/pierwsze.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/pierwsze.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/pierwsze.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/pierwsze.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/pierwsze.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/pierwsze.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/pierwsze.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/pierwsze.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/pierwsze.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/Debug/net5.0/ref/pierwsze.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/pierwsze.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/pierwsze.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/pierwsze.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/pierwsze.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pierwsze/pierwsze.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/bin/Debug/net5.0/pliki.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/bin/Debug/net5.0/pliki.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/bin/Debug/net5.0/pliki.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/bin/Debug/net5.0/pliki.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/bin/Debug/net5.0/pliki.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/bin/Debug/net5.0/pliki.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/bin/Debug/net5.0/ref/pliki.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/pliki.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/pliki.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/pliki.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/pliki.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/pliki.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/pliki.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/pliki.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/pliki.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/pliki.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/pliki.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/Debug/net5.0/ref/pliki.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/pliki.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/pliki.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/pliki.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/pliki.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pp/pliki/text.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="20jIfiwPxjadHPFouT1kBIQPztc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ded3f204-4d23-470f-b675-a734f0fd859c" name="Changes" comment="" />
+      <created>1636551680471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636551680471</updated>
+    </task>
+    <servers />
+  </component>
+</project>
