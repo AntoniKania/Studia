@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = pierwsze
-build_property.ProjectDir = c:\Users\Antek\Documents\Visual Studio Code\Studia\pp\pierwsze\
+build_property.RootNamespace = baza_danych
+build_property.ProjectDir = c:\Users\Antek\Documents\Visual Studio Code\Studia\C#\baza_danych\

@@ -41,3 +41,125 @@ quicksort
 stabilnosc
 
 praca / staz IT 
+
+
+z dwoch list n-elementowymi z liczbami binarnymi zlozyc liste n+1 elementową z sumą 
+
+
+int[] listaA
+int[] listaB
+int przeniesienie
+int bit
+
+
+
+package com.example.demo;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+
+'''
+public class HelloApplication extends Application {
+
+    public static void drukuj(int[] liczby){
+        for (int i = 0; i< liczby.length; i++)
+            System.
+
+    }
+    @Override
+    public void start(Stage stage) throws IOException {
+        int[] listaA = {0, 1, 0, 1, 1, 1};
+        int[] listaB = {1, 0, 0, 1, 0, 0};
+        int[] listaW = {0, 0, 0, 0, 0, 0, 0};
+        int przeniesienie = 0;
+        int sumaBit = 0;
+
+        for (int i = listaA.length - 1; i>0; i--){
+
+            sumaBit = listaA[i] + listaB[i] + przeniesienie;
+
+            if (sumaBit == 0){
+
+            }
+
+        }
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+}
+'''
+
+program ktory zapisuje podana liczbe w systemie dziesietnym 
+
+
+argumenty(x,n)
+
+i=0
+binarna{} = {}
+
+binarna.push(x%2)
+x = Math.floor(x/2) //zaokragla w dół
+i++
+
+
+Funkcje
+
+Metodyki programowania:
+-strukturalne
+-proceduralne (funkcje) //dekompozycja
+-obiektowe //najwyzsza metodyka, mniejszy naklad pracy przy wiekszych projektach
+
+DRY (dont repeat yourself)
+
+wartosci domyslne 
+
+funkcja(int n, int z = 23, ...) //wszystkie kolejne musza miec wartosci domyslne
+
+argumenty nazwane
+
+Execute(open: true, force: true, ...) //dowolna kolejnosc 
+
+Execute(true, force: true, ...) //mieszane, ale wszystkie kolejne musza byc podane z nazwa
+
+Przeciazenie funkcji - funkcje z ta sama nazwa, ale maja rozne argumenty(typy/ilosc) //WriteLine ma 30 przeciazen
+
+
+Argument przekazywany przez referencje (ref i out) //do funkcji zostaje przekazana zmienna a nie jej wartosc
+
+...void Inc (ref Int32 n)
+{
+    n++
+}
+Int32 a = 7;
+Inc(ref a); //przyjmuje wartosc 8, wartosc przekazywana musi byc zmienną nie moze to byc wyrazenie arytmetyczne
+
+____________________
+
+...void Inc (Int32 n)
+{
+    n++
+}
+Int32 a = 7;
+Inc(a); //przyjmuje wartosc 7 (przekazywana jest tylko wartosc, argumentem moze byc np. 2*a)
+
+
+Typy Referncyjne (np tablice)  new przy tworzeniu
+
+Powtórzenie Algorytmika
+
+-dodawanie liczb binarnych
+
+Operator <<
+
+0010<<1 -> 0100 //pomozenie *2
+
+Sortowanie
+
+
