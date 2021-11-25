@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\pp\\pierwsze\\pierwsze.csproj",
+      "projectUniqueName": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\pierwsze\\pierwsze.csproj",
       "projectName": "pierwsze",
-      "projectPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\pp\\pierwsze\\pierwsze.csproj",
+      "projectPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\pierwsze\\pierwsze.csproj",
       "packagesPath": "C:\\Users\\Antek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\pp\\pierwsze\\obj\\",
+      "outputPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\pierwsze\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Antek\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\pierwsze\\pierwsze.csproj": {}
+    "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\json\\json.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\pierwsze\\pierwsze.csproj": {
+    "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\json\\json.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\pierwsze\\pierwsze.csproj",
-        "projectName": "pierwsze",
-        "projectPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\pierwsze\\pierwsze.csproj",
+        "projectUniqueName": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\json\\json.csproj",
+        "projectName": "json",
+        "projectPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\json\\json.csproj",
         "packagesPath": "C:\\Users\\Antek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\pierwsze\\obj\\",
+        "outputPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\json\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Antek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,18 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "NuGet.CommandLine": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.8.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
