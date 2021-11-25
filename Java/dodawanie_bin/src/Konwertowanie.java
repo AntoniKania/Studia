@@ -1,5 +1,5 @@
 
-
+/*
 public class Konwertowanie {
     public static void drukuj(int[] liczby){
         for (int i = 0; i< liczby.length; i++)
@@ -65,3 +65,4 @@ public class Konwertowanie {
     }
 
 }
+*/

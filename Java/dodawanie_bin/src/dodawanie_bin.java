@@ -1,4 +1,4 @@
-
+/*
 
 public class Konwertowanie {
     public static void drukuj(int[] liczby){
@@ -65,3 +65,4 @@ public class Konwertowanie {
     }
 
 }
+*/

@@ -849,19 +849,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Antek\\.nuget\\packages\\": {}
+    "C:\\Users\\Antek Kania\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\baza_danych\\baza_danych.csproj",
+      "projectUniqueName": "C:\\Users\\Antek Kania\\Documents\\Visual Studio Code\\Studia\\C#\\baza_danych\\baza_danych.csproj",
       "projectName": "baza_danych",
-      "projectPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\baza_danych\\baza_danych.csproj",
-      "packagesPath": "C:\\Users\\Antek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Antek\\Documents\\Visual Studio Code\\Studia\\C#\\baza_danych\\obj\\",
+      "projectPath": "C:\\Users\\Antek Kania\\Documents\\Visual Studio Code\\Studia\\C#\\baza_danych\\baza_danych.csproj",
+      "packagesPath": "C:\\Users\\Antek Kania\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Antek Kania\\Documents\\Visual Studio Code\\Studia\\C#\\baza_danych\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Antek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Antek Kania\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
