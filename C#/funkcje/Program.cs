@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace project
 {
@@ -51,6 +52,7 @@ namespace project
     }
     class Program
     {
+        static bool Multiplayer;
 
         static void NewHero(string name, string type, int str, int dex, int inte)
         {
@@ -60,18 +62,70 @@ namespace project
 
         static void Main(string[] args)
         {
+            //var info = Console.ReadKey();
+
+            System.Console.WriteLine("Fight Club");
+            System.Console.WriteLine("Wybierz tryb gry:");
+            System.Console.WriteLine("[1] Singleplayer");
+            System.Console.WriteLine("[2] Multiplayer");
+
+            //ConsoleKeyInfo keyPressed = ReadKey();
+
+            bool choosing = true;
+
+            while (choosing == true)
+            {
+                var info = Console.ReadKey();
+                switch (info.KeyChar)
+                {
+                    case '1':
+                        Multiplayer = false;
+                        System.Console.WriteLine("Tryb Singleplayer");
+                        choosing = false;
+                        break;
+                    case '2':
+                        Multiplayer = true;
+                        System.Console.WriteLine("Tryb Multiplayer");
+                        choosing = false;
+                        break;
+                }
+            }
+
             System.Console.Write("Podaj nazwe swojego bohatera: ");
             string name = Console.ReadLine();
-            System.Console.Write("Podaj klase swojego bohatera ");
-            string type = Console.ReadLine();
-            System.Console.Write("Podaj ilosc punktow sily: ");
+            System.Console.WriteLine("Wybierz klase swojego bohatera:");
+            System.Console.WriteLine("[1] Assassin [2] Warrior [3] Sorcerer ");
+
+            choosing = true;
+            while (choosing == true)
+            {
+                //string input = Console.ReadLine();
+                var info = Console.ReadKey();
+                switch (info.KeyChar)
+                {
+                    case '1':
+                        System.Console.WriteLine("assassin");
+                        choosing = false;
+                        break;
+                    case '2':
+                        System.Console.WriteLine("warrior");
+                        choosing = false;
+                        break;
+                    case '3':
+                        System.Console.WriteLine("soccer");
+                        choosing = false;
+                        break;
+                }
+            }
+            //string type = Console.ReadLine();
+            System.Console.WriteLine("Podaj ilosc punktow sily: ");
             int str = int.Parse(Console.ReadLine());
             System.Console.Write("Podaj dex swojego bohatera: ");
             int dex = int.Parse(Console.ReadLine());
             System.Console.Write("Podaj inteligencje swojego bohatera: ");
             int inte = int.Parse(Console.ReadLine());
 
-            NewHero(name, type, str, dex, inte);
+            //NewHero(name, type, str, dex, inte);
 
             //Console.WriteLine(hero.Name + " Str:{0} Dex:{1} Int:{2}", hero.GetStrength(), hero.GetDexterity(), hero.GetIntelligence());
         }
