@@ -95,7 +95,7 @@ namespace project
             string name = Console.ReadLine();
             System.Console.WriteLine("Wybierz klase swojego bohatera:");
             System.Console.WriteLine("[1] Assassin [2] Warrior [3] Sorcerer ");
-
+            string type = "";
             choosing = true;
             while (choosing == true)
             {
@@ -105,6 +105,7 @@ namespace project
                 {
                     case '1':
                         System.Console.WriteLine("assassin");
+                        type = "assassin";
                         choosing = false;
                         break;
                     case '2':
@@ -116,6 +117,7 @@ namespace project
                         choosing = false;
                         break;
                 }
+                
             }
             //string type = Console.ReadLine();
             System.Console.WriteLine("Podaj ilosc punktow sily: ");
@@ -125,7 +127,8 @@ namespace project
             System.Console.Write("Podaj inteligencje swojego bohatera: ");
             int inte = int.Parse(Console.ReadLine());
 
-            //NewHero(name, type, str, dex, inte);
+            
+            NewHero(name, type, str, dex, inte);
 
             //Console.WriteLine(hero.Name + " Str:{0} Dex:{1} Int:{2}", hero.GetStrength(), hero.GetDexterity(), hero.GetIntelligence());
         }

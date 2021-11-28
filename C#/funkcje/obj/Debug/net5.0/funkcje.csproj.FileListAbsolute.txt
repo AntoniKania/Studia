@@ -14,3 +14,19 @@ C:\Users\Antek\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\f
 C:\Users\Antek\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\ref\funkcje.dll
 C:\Users\Antek\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\funkcje.pdb
 C:\Users\Antek\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\funkcje.genruntimeconfig.cache
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\bin\Debug\net5.0\funkcje.exe
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\bin\Debug\net5.0\funkcje.deps.json
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\bin\Debug\net5.0\funkcje.runtimeconfig.json
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\bin\Debug\net5.0\funkcje.runtimeconfig.dev.json
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\bin\Debug\net5.0\funkcje.dll
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\bin\Debug\net5.0\ref\funkcje.dll
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\bin\Debug\net5.0\funkcje.pdb
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\funkcje.csproj.AssemblyReference.cache
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\funkcje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\funkcje.AssemblyInfoInputs.cache
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\funkcje.AssemblyInfo.cs
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\funkcje.csproj.CoreCompileInputs.cache
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\funkcje.dll
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\ref\funkcje.dll
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\funkcje.pdb
+C:\Users\Antek Kania\Documents\Visual Studio Code\Studia\C#\funkcje\obj\Debug\net5.0\funkcje.genruntimeconfig.cache
