@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3LAsyaacsoa3vj1d5M6S+rjEMln0ZU8kfUZK3/MubvOVuy+9VbD6GCalyfGvBDsU81PjFGmJZVjEeBe1glfjVA==",
+  "dgSpecHash": "GhC3KYSbV5wCIGaJ4qnuyazgSXY91M3vWE9ED+uVgmsX+c+ZTJsSxYMquI2liLoc3WWF2M/sEmkZQBbdJuwiKA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Antek Kania\\Documents\\Visual Studio Code\\Studia\\C#\\funkcje\\funkcje.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Antek Kania\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
