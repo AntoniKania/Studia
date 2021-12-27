@@ -1,0 +1,14 @@
+{
+  "Dexterity": 4,
+  "Name": "Geralt",
+  "MyClass": "monk",
+  "Strength": 3,
+  "Intelligence": 13,
+  "Items": [],
+  "Exp": 500,
+  "MaxHp": 100,
+  "Cash": 200,
+  "Armor": 0,
+  "Level": 1,
+  "FinishedLevel": 1
+}

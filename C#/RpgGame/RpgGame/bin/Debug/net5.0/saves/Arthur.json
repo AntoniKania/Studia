@@ -1,0 +1,16 @@
+{
+  "Dexterity": 30,
+  "Name": "Arthur",
+  "MyClass": "",
+  "Strength": 809,
+  "Intelligence": 19,
+  "Items": [
+    "(sword) Curtana"
+  ],
+  "Exp": 2000,
+  "MaxHp": 120,
+  "Cash": 8500,
+  "Armor": 16,
+  "Level": 1,
+  "FinishedLevel": 4
+}

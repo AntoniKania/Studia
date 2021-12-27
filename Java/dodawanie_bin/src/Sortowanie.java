@@ -31,7 +31,7 @@ public class Sortowanie {
         for( int i = 0; i < lista.length; i++){
             for (int j=i; j>lista[j]>lista[j-1];j--) {
         }
-
+            System.out.println();
     }
     public static void main(String[] args) {
         int n = 30;

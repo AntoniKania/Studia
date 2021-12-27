@@ -11,23 +11,23 @@ namespace pierwsze
 
             double[] nbr = new double[n];
 
-            for(int i = 2; i < n; i++)
+            for (int i = 2; i < n; i++)
             {
                 nbr[i] = i;
             }
 
-            for(int i = 2; i < Math.Sqrt(n); i++)
+            for (int i = 2; i < Math.Sqrt(n); i++)
             {
-                for(int j = 2; j <= n; j++)
+                for (int j = 2; j <= n; j++)
                 {
                     if (i * j < n)
                         nbr[i * j] = 0;
                     else
                         break;
-                }    
-                
+                }
+
             }
-            for(int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
                 if (nbr[i] != 0)
                     Console.Write(i + " ");
@@ -35,4 +35,3 @@ namespace pierwsze
         }
     }
 }
-//test github
