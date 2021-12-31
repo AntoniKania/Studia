@@ -66,10 +66,11 @@ namespace RpgGame
             using SQLiteDataReader reader1 = cmd1.ExecuteReader();
             while (reader1.Read())
             {
+                this.UserPrice = reader1.GetInt32(3);
                 this.ShopPrice = reader1.GetInt32(2);
-                this.StrengthPoints = reader1.GetInt32(3);
-                this.DexterityPoints = reader1.GetInt32(4);
-                this.ArmorPoints = reader1.GetInt32(5);
+                this.StrengthPoints = reader1.GetInt32(4);
+                this.DexterityPoints = reader1.GetInt32(5);
+                this.ArmorPoints = reader1.GetInt32(6);
             }
             con.Close();
         }

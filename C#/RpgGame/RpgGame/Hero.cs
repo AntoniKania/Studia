@@ -179,5 +179,13 @@ namespace RpgGame
             Armor += item.ArmorPoints;
             Cash -= item.ShopPrice;
         }
+        public void SellItem(Item item)
+        {
+            Items.Remove(item.Name);
+            Strength -= item.StrengthPoints;
+            Dexterity -= item.DexterityPoints;
+            Armor -= item.ArmorPoints;
+            Cash += item.UserPrice;
+        }
     }
 }

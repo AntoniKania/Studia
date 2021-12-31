@@ -127,11 +127,13 @@ namespace RpgGame
         }
         public static void NewHero()
         {
+
             Console.Write("Type name of your hero: ");
             string name = Console.ReadLine();
+            
             Console.Clear();
-            System.Console.WriteLine("Choose class of your Hero:");
-            System.Console.WriteLine("[1] Ninja  (Strength: 4, Dexterity: 8, Intelligence 4)\r\n[2] Samurai  (Strength: 8, Dexterity: 3, Intelligence: 3)\r\n[3] Monk  (Strength: 3, Dexterity: 4, Intelligence: 8)");
+            Console.WriteLine("Choose class of your Hero:");
+            Console.WriteLine("[1] Ninja  (Strength: 4, Dexterity: 8, Intelligence 4)\r\n[2] Samurai  (Strength: 8, Dexterity: 3, Intelligence: 3)\r\n[3] Monk  (Strength: 3, Dexterity: 4, Intelligence: 8)");
             string type = "";
             bool choosing = true;
             while (choosing == true)
@@ -161,8 +163,8 @@ namespace RpgGame
             for (int i = 5; i > 0; i--)
             {
                 Console.Clear();
-                System.Console.WriteLine("You got " + i + " More Points to Spend");
-                System.Console.WriteLine("[1] Strenght: " + hero1.Strength + "   [2] Dexterity: " + hero1.Dexterity + "   [3] Intelligence: " + hero1.Intelligence);
+                Console.WriteLine("You got " + i + " More Points to Spend");
+                Console.WriteLine("[1] Strenght: " + hero1.Strength + "   [2] Dexterity: " + hero1.Dexterity + "   [3] Intelligence: " + hero1.Intelligence);
                 choosing = true;
                 while (choosing == true)
                 {
@@ -525,7 +527,7 @@ namespace RpgGame
             Console.Clear();
             Console.WriteLine("Insert number of item you want to sell.     " + hero1.Cash + "$");
             Console.WriteLine("[1] Back");
-            int n = 1;
+            int n = 2;
             foreach (string item in hero1.Items)
             {
                 Console.Write("[" + n + "]" + item + "        ");
@@ -551,8 +553,8 @@ namespace RpgGame
                             Item item = new Item(hero1.Items[0]);
                             if (Confirm("sell this item " + item.Name + "?") == true)
                             {
-                                hero1.AddItem(item);
-                                Console.WriteLine("You bought " + item.Name);
+                                hero1.SellItem(item);
+                                Console.WriteLine("You sold " + item.Name);
                                 Thread.Sleep(700);
                                 Shop(hero1);
                                 break;
@@ -562,10 +564,10 @@ namespace RpgGame
                         case '3':
                             Console.Clear();
                             Item item1 = new Item(hero1.Items[1]);
-                            if (Confirm("item") == true)
+                            if (Confirm("sell this item " + item1.Name + "?") == true)
                             {
-                                hero1.AddItem(item1);
-                                Console.WriteLine("You bought " + item1.Name);
+                                hero1.SellItem(item1);
+                                Console.WriteLine("You sold " + item1.Name);
                                 Thread.Sleep(700);
                                 Shop(hero1);
                                 break;

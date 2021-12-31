@@ -77,16 +77,13 @@ namespace RpgGame
                 Thread.Sleep(500);
             }
         }
-        
         public static void MainMenu()
         {
             Console.Clear();
-            Console.WriteLine("Fight Club");
             Console.WriteLine("Choose Game Mode:");
             Console.WriteLine("[1] New Game");
             Console.WriteLine("[2] Load Game");
             Console.WriteLine("[3] Multiplayer");
-            Console.WriteLine("[4] Quit Game");
 
             bool choosing = true;
             while (choosing == true)
@@ -194,8 +191,6 @@ namespace RpgGame
                         Multiplayer.NewHero();
                         choosing = false;
                         break;
-                    case '4':
-                        return;
                 }
             }
         }
