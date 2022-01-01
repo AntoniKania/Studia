@@ -87,7 +87,7 @@ namespace RpgGame
         public void Attack(Hero opponent)
         {
             int random = rng.Next(13, 16);
-            if (true)
+            if (random == 13)
             {
                 Console.WriteLine(Name + " missed!");
                 Thread.Sleep(700);

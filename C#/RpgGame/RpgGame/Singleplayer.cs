@@ -14,7 +14,6 @@ namespace RpgGame
         public static void Writting(string text)
         {
             for (int i = 0; i < text.Length; i++)
-
             {
                 Console.Write(text[i]);
                 Thread.Sleep(3);
