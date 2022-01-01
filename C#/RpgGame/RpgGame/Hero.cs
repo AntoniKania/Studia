@@ -86,9 +86,17 @@ namespace RpgGame
         }
         public void Attack(Hero opponent)
         {
-            
-            Damage = Convert.ToInt32((1.2 * Strength + 0.5 * Dexterity) * rng.Next(13, 16)* 0.1);
-            opponent.Hp -= Damage;
+            int random = rng.Next(13, 16);
+            if (true)
+            {
+                Console.WriteLine(Name + " missed!");
+                Thread.Sleep(700);
+            }
+            else
+            {
+                Damage = Convert.ToInt32((1.2 * Strength + 0.5 * Dexterity) * rng.Next(13, 16) * 0.1);
+                opponent.Hp -= Damage;
+            }
             if (opponent.Hp < 0) { opponent.Hp = 0; }
         }
         public void Spell(Hero opponent)
@@ -101,8 +109,16 @@ namespace RpgGame
             else
                 Console.WriteLine("Choose Spell You Want to use: \n\r[1] Mobiaris   [2] Relorgio   [3] Increnulsis ");
             Console.ReadKey();
-            Damage = Convert.ToInt32((Intelligence + 0.5 * Dexterity) * rng.Next(13, 16) * 0.1);
-            opponent.Hp -= Damage;
+            int random = rng.Next(13, 16);
+            if (random == 13)
+            {
+                Console.WriteLine(Name + " missed!");
+            }
+            else
+            {
+                Damage = Convert.ToInt32((Intelligence + 0.5 * Dexterity) * random * 0.1);
+                opponent.Hp -= Damage;
+            } 
             if (opponent.Hp < 0) { opponent.Hp = 0; }
         }
         public void Healing(double multi = 1)

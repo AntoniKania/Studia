@@ -17,7 +17,7 @@ namespace RpgGame
 
             {
                 Console.Write(text[i]);
-                Thread.Sleep(5);
+                Thread.Sleep(3);
             }
             Console.WriteLine();
         }
@@ -245,7 +245,7 @@ namespace RpgGame
             if (hero1.FinishedLevel == 3)
             {
                 Writting("It turned out it actually was her grandma who had a cold. Bunch of guards immediately forced the doors and barge in, because I forgot to mention but her Grandma was Queen of Yamatai");
-                Writting("Guards were about to kill" + hero1.Name + " but just out of nowhere some sort of dragon rip off the rooftop and started talking something, but not for long because brave or rather afreid for her life " + hero1.Name + " attacked the Dragon.");
+                Writting("Guards were about to kill " + hero1.Name + " but just out of nowhere some sort of dragon rip off the rooftop and started talking something, but not for long because brave or rather afreid for her life " + hero1.Name + " attacked the Dragon.");
                 Console.WriteLine("Press any key to continue...");
                 Console.ReadKey();
                 Console.Clear();
@@ -554,6 +554,7 @@ namespace RpgGame
                             if (Confirm("sell this item " + item.Name + "?") == true)
                             {
                                 hero1.SellItem(item);
+                                Console.Clear();
                                 Console.WriteLine("You sold " + item.Name);
                                 Thread.Sleep(700);
                                 Shop(hero1);
@@ -567,6 +568,7 @@ namespace RpgGame
                             if (Confirm("sell this item " + item1.Name + "?") == true)
                             {
                                 hero1.SellItem(item1);
+                                Console.Clear();
                                 Console.WriteLine("You sold " + item1.Name);
                                 Thread.Sleep(700);
                                 Shop(hero1);
