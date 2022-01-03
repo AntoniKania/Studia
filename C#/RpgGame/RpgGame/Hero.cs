@@ -34,7 +34,6 @@ namespace RpgGame
         public int FinishedLevel;
         public List<string> Items = new List<string>();
 
-        //public class Random;
         Random rng = new Random();
         public static string cs = "Data Source=./sqliteDB.db";
 

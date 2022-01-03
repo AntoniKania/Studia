@@ -8,6 +8,7 @@ namespace RpgGame
 {
     public class Multiplayer
     {
+        public static Random random = new();
         public static void Fight(Hero hero1, Hero hero2, int n = 0)
         {
             bool end;
@@ -99,7 +100,6 @@ namespace RpgGame
                 }
             }
         }
-
         public static void NewHero()
         {
             Console.WriteLine("(Player1) Create Your Hero");
@@ -162,7 +162,6 @@ namespace RpgGame
                             break;
                     }
                 }
-
             }
             Console.WriteLine("You've Created your Hero!");
             NewHero2(hero1);
@@ -231,7 +230,12 @@ namespace RpgGame
                 }
             }
             Console.WriteLine("You've Created your Hero!");
-            Fight(hero1, hero2);
+            Console.Write("Drawing First Player");
+            Program.Loading();
+            if (random.Next(1, 10) > 5)
+                Fight(hero1, hero2);
+            else
+                Fight(hero2, hero1);
             //Console.WriteLine("The Winner is: " + Fight(hero1, hero2));   
         }
     }
