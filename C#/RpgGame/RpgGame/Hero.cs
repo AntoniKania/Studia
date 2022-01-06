@@ -153,11 +153,11 @@ namespace RpgGame
             Hero["Intelligence"] = Intelligence;
             Hero["Exp"] = Exp;
             Hero["Name"] = Name;
-            foreach (string item in Hero["Items"])
-                heroItems.Add(item);
-            //foreach (string item in Items)
-            //  if (!heroItems.Contains(item))
-            //    Hero["Items"].Append(item);
+            //foreach (string item in Hero["Items"])
+                //Hero["Items"].Append(item);
+            foreach (string item in Items)
+              if (!heroItems.Contains(item))
+                Hero["Items"].AddAfterSelf(item);
             JsonSerializer.Serialize(Items);
             File.WriteAllText(path, Hero.ToString());
             Console.WriteLine("Progress Saved!");

@@ -40,10 +40,6 @@ namespace RpgGame
         }
         public static bool Fight(Hero hero1, Hero enemy)
         {
-            bool isChapterOne = false;
-            if ((new System.Diagnostics.StackTrace()).GetFrame(1).GetMethod().Name == "ChapterOne")
-                isChapterOne = true;
-
             while (true)
             {
             start:
@@ -90,7 +86,7 @@ namespace RpgGame
                                 switch (info2.KeyChar)
                                 {
                                     case '1':
-                                        if (isChapterOne == true)
+                                        if (hero1.FinishedLevel < 1)
                                             Program.MainMenu();
                                         else
                                             Preparation(hero1);
@@ -99,7 +95,6 @@ namespace RpgGame
                                         goto start;
                                 }
                             }
-
                     }
                     if (enemy.Hp <= 0)
                         return true;
@@ -114,7 +109,7 @@ namespace RpgGame
                         Console.WriteLine(hero1.Name + " deals " + hero1.Damage + " damage");
                     else
                         Console.WriteLine("Hp +" + hero1.HpDifference);
-                    Console.Write(enemy.Name + "'s turn");
+                    Console.WriteLine(enemy.Name + "'s turn");
                     Program.Loading();
                     enemy.Attack(hero1);
                     Console.WriteLine();
@@ -421,16 +416,26 @@ namespace RpgGame
                         case '2':
                             Console.Clear();
                             Item item = new Item(list[0]);
-                            if (Confirm("buy this item " + item.Name + "?") == true && hero1.Cash >= item.ShopPrice)
+                            if (hero1.Cash >= item.ShopPrice)
                             {
-                                hero1.AddItem(item);
-                                Console.WriteLine("You bought " + item.Name);
-                                Thread.Sleep(700);
-                                Shop(hero1);
-                                break;
+                                if (Confirm("buy this item " + item.Name + "?"))
+                                {
+                                    hero1.AddItem(item);
+                                    Console.WriteLine("You bought " + item.Name);
+                                    Thread.Sleep(700);
+                                    Shop(hero1);
+                                    break;
+                                }
+                                else
+                                    goto buying;
                             }
                             else
+                            {
+                                Console.WriteLine("You cannot afford this item");
+                                Thread.Sleep(1000);
                                 goto buying;
+                            }
+                            
                         case '3':
                             Console.Clear();
                             Item item1 = new Item(list[1]);

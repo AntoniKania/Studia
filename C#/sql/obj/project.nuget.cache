@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "/A+zZcmsrb2xmneJN9D2deJ/Kzq7pfIfHAf0yKo1pl5Rv6jxKI4Bft+o+ZzX7elIhIvekEs2YI+/1Opiq1gvxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Antek Kania\\Documents\\Visual Studio Code\\Studia\\C#\\sql\\sql.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Antek Kania\\.nuget\\packages\\microsoft.data.sqlite\\6.0.1\\microsoft.data.sqlite.6.0.1.nupkg.sha512",
+    "C:\\Users\\Antek Kania\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.1\\microsoft.data.sqlite.core.6.0.1.nupkg.sha512",
+    "C:\\Users\\Antek Kania\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\Antek Kania\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\Antek Kania\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\Antek Kania\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.6\\sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\Antek Kania\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
