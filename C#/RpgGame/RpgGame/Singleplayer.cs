@@ -586,7 +586,75 @@ namespace RpgGame
                             if (Confirm("item") == true)
                             {
                                 hero1.AddItem(item2);
-                                Console.WriteLine("You bought " + item2.Name);
+                                Console.WriteLine("You sold " + item2.Name);
+                                Thread.Sleep(700);
+                                Shop(hero1);
+                                break;
+                            }
+                            else
+                                goto selling;
+                        case '5':
+                            Console.Clear();
+                            Item item3 = new Item(hero1.Items[3]);
+                            if (Confirm("sell this item " + item3.Name + "?") == true)
+                            {
+                                hero1.SellItem(item3);
+                                Console.Clear();
+                                Console.WriteLine("You sold " + item3.Name);
+                                Thread.Sleep(700);
+                                Shop(hero1);
+                                break;
+                            }
+                            else
+                                goto selling;
+                        case '6':
+                            Console.Clear();
+                            Item item4 = new Item(hero1.Items[4]);
+                            if (Confirm("sell this item " + item4.Name + "?") == true)
+                            {
+                                hero1.SellItem(item4);
+                                Console.Clear();
+                                Console.WriteLine("You sold " + item4.Name);
+                                Thread.Sleep(700);
+                                Shop(hero1);
+                                break;
+                            }
+                            else
+                                goto selling;
+                        case '7':
+                            Console.Clear();
+                            Item item5 = new Item(hero1.Items[5]);
+                            if (Confirm("item") == true)
+                            {
+                                hero1.AddItem(item5);
+                                Console.WriteLine("You sold " + item5.Name);
+                                Thread.Sleep(700);
+                                Shop(hero1);
+                                break;
+                            }
+                            else
+                                goto selling;
+                        case '8':
+                            Console.Clear();
+                            Item item6 = new Item(hero1.Items[6]);
+                            if (Confirm("sell this item " + item6.Name + "?") == true)
+                            {
+                                hero1.SellItem(item6);
+                                Console.Clear();
+                                Console.WriteLine("You sold " + item6.Name);
+                                Thread.Sleep(700);
+                                Shop(hero1);
+                                break;
+                            }
+                            else
+                                goto selling;
+                        case '9':
+                            Console.Clear();
+                            Item item7 = new Item(hero1.Items[7]);
+                            if (Confirm("item") == true)
+                            {
+                                hero1.AddItem(item7);
+                                Console.WriteLine("You sold " + item7.Name);
                                 Thread.Sleep(700);
                                 Shop(hero1);
                                 break;
@@ -598,7 +666,7 @@ namespace RpgGame
             }
             catch
             {
-                Console.WriteLine("Iserted value out of range, try again:");
+                Console.WriteLine("Iserted value is out of range, try again:");
                 goto selling;
             }
         }

@@ -61,7 +61,7 @@ namespace RpgGame
                     Console.Write(symbol[0]);
                     Console.Write(i);
                     Console.Write(symbol[1]);
-                    Console.WriteLine($"{reader1.GetString(1)}" + "     " + $"{reader1.GetInt32(2)}" + "$");
+                    Console.WriteLine($"{reader1.GetString(1)}" + "     " + $"{reader1.GetInt32(2)}" + "$" + "  Strenght +" + $"{reader1.GetInt32(4)}" + "   Dexterity +" + $"{reader1.GetInt32(5)}" + "   Intelligence +" + $"{reader1.GetInt32(6)}");
                     itemslist.Add(reader1.GetString(1));
                     i++;
                 }
