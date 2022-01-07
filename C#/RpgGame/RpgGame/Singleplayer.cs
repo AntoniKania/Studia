@@ -200,7 +200,7 @@ namespace RpgGame
                 Console.WriteLine("Press any key to continue...");
                 Console.ReadKey();
                 Console.Clear();
-                Writting("The sun was shining brightly, but it was not too warm under the shade of the old trees, and " + hero1.Name + " sang with glee as she gathered a great bunch of wild flowers to give to her grandmother. She sang so sweetly that a bird dove flew down from a tree and followed her. " + hero1.Name + " as a " + hero1.MyClass + " don't like to be follow, so she decided that she will kill a bird.");
+                Writting("The sun was shining brightly, but it was not too warm under the shade of the old trees, and " + hero1.Name + " sang with glee as she gathered a great bunch of wild flowers to give to her grandmother. She sang so sweetly that a bird dove flew down from a tree and followed her. " + hero1.Name + " as a " + hero1.MyClass + " don't like to be followed, so she decided that she will kill the bird.");
                 Console.WriteLine("Press any key to continue...");
                 Console.ReadKey();
                 Console.Clear();
