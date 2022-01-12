@@ -96,7 +96,6 @@ namespace RpgGame
                         Console.ReadKey();
                         Program.MainMenu();
                     }
-                    //Console.WriteLine();
                 }
             }
         }
@@ -235,8 +234,7 @@ namespace RpgGame
             if (random.Next(1, 10) > 5)
                 Fight(hero1, hero2);
             else
-                Fight(hero2, hero1);
-            //Console.WriteLine("The Winner is: " + Fight(hero1, hero2));   
+                Fight(hero2, hero1); 
         }
     }
 }

@@ -33,12 +33,6 @@ namespace RpgGame
             using var con = new SQLiteConnection(cs);
             con.Open();
             command = "SELECT * FROM Items";
-            /*
-            if (location == "shop")
-                command = "SELECT * FROM Items WHERE Is_in_shop = 1";
-            else if (location == "hero")
-                command = "SELECT * FROM Items WHERE Is_in_shop = 0";
-            */
             using var cmd1 = new SQLiteCommand(command, con);
             using SQLiteDataReader reader1 = cmd1.ExecuteReader();
             while (reader1.Read())

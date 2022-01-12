@@ -10,7 +10,6 @@ namespace RpgGame
 {
     public class Singleplayer
     {
-        string cs = "Data Source=./sqliteDB.db";
         public static void Writting(string text)
         {
             for (int i = 0; i < text.Length; i++)
@@ -182,7 +181,6 @@ namespace RpgGame
                             break;
                     }
                 }
-
             }
             Console.WriteLine("You've Created your Hero!");
             Storyline(hero1, "Bird", 4, 140);
@@ -310,7 +308,6 @@ namespace RpgGame
             Console.WriteLine("[1] Next Quest");
             Console.WriteLine("[2] Shop");
             Console.WriteLine("[3] Save & Exit to Main Menu");
-            //Console.WriteLine("[5] Save & Exit to Desktop");
             bool choosing;
             choosing = true;
             while (choosing == true)
@@ -341,7 +338,6 @@ namespace RpgGame
                         break;
                 }
             }
-
         }
         public static void Shop(Hero hero1)
         {
@@ -356,11 +352,8 @@ namespace RpgGame
                 Program.SqlShowPrice(item, "user");
                 n++;
             }
-
-            //Program.SqlShow(hero1);
             Console.WriteLine("Smith's Equipment: ");
             Program.SqlShow(hero1);
-            //itemy kowala
             Console.WriteLine("[1] Buy");
             Console.WriteLine("[2] Sell");
             Console.WriteLine("[3] Exit Shop");
@@ -388,7 +381,6 @@ namespace RpgGame
                         break;
                 }
             }
-
         }
         static void Buy(Hero hero1)
         {
@@ -397,8 +389,6 @@ namespace RpgGame
             Console.WriteLine("Insert number of item you want to buy.     " + hero1.Cash + "$");
             Console.WriteLine("[1] Back");
             List<string> list = Program.SqlShow(hero1, true);
-            //Program.SqlShow(hero1, true);
-            //wyswietlanie bazy danych z opcja wyboru
             bool choosing;
             choosing = true;
             try
