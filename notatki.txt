@@ -162,4 +162,7 @@ Operator <<
 
 Sortowanie
 
+Kopce
+
+
 
