@@ -15,6 +15,9 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.Fixed3D;
+            //ControlBox  Icon.ico   Mnimni
+            Opacity = 13;
         }
     }
 }
