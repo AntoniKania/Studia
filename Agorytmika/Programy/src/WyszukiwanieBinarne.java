@@ -1,7 +1,11 @@
 import java.util.Random;
+import java.util.Scanner;
+
+
 
 public class WyszukiwanieBinarne {
     static Random przypadkowe = new Random();
+    static Scanner in = new Scanner(System.in);
 
     public static void drukuj(int[] liczby) {
         for(int i = 0; i < liczby.length; i++) {
@@ -57,7 +61,8 @@ public class WyszukiwanieBinarne {
         sortujb(lista); //sortowanie bąbelkowe
         System.out.println("Posortowana lista:");
         drukuj(lista);
-        int wartosc = 15;
+        System.out.println("Podaj liczbe dla ktorej chcesz znalezc porawny indeks: ");
+        int wartosc = in.nextInt();
         int indeks = wyszukaj(lista, wartosc);
         System.out.println("Podana wartość (" + wartosc + ") powinna znalezc sie na pozycji " + indeks + " w stworzonej liście.");
 
